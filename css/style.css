@@ -18,3 +18,24 @@ html, body {
 * { box-sizing: border-box; }
 img { max-width: 100%; height: auto; display: block; }
 
+.content {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .content {
+    max-width: 900px;
+    margin: auto;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .content {
+    grid-template-columns: 1fr 2fr;
+  }
+}
