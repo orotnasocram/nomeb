@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>my-app</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+
+
+
+
+<main class="content">
+  <section class="band-photo">
+    <div style="text-align:center;">
+        <img src="media/test.jpg" alt="Descrizione immagine" style="max-width:100%;height:auto;">
+    </div>
+  </section>
+  <section class="band-music">
+    <!-- Audio player for testsound.mp3 -->
+    <section id="audio-player" style="text-align:center; margin:1rem 0;">
+    <audio id="test-audio" controls preload="none">
+        <source src="media/testsound.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <div style="margin-top:.5rem;">
+        <button id="play-btn" type="button">Play</button>
+        <button id="pause-btn" type="button">Pause</button>
+        <span id="time">0:00</span>
+    </div>
+    </section>
+    </section>
+    <section class="band-video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/cj_EmHtDANE?si=-zNPEICTd9rV52rz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+    <section class="band-live">
+        <ul>
+            <li>2026-01-01 - Live @ locale</li>
+            <li>2026-01-02 - Live @ locale</li>
+            <li>2026-01-03 - Live @ locale</li>
+            <li>2026-01-04 - Live @ locale</li>
+            <li>2026-01-05 - Live @ locale</li>
+            <li>2026-01-06 - Live @ locale</li>
+            <li>2026-01-07 - Live @ locale</li>
+        </ul>
+    </section>
+</main>
+
+cascasca
+<h1>nomeb</h1>
+
+<h2>MMMMMM</h2>
+<p>
+Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
+</p>
+<h2>VVVVV</h2>
+
+<p>
+Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
+</p>
+<h2>LLLL</h2>
+
+<p>
+Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
+</p>
+
+<footer>------</footer>
+
+<script src="js/player.js" defer></script>
+
+
+
+
+  </body>
+</html>
