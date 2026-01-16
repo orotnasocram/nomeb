@@ -1,4 +1,17 @@
 
+<!-- Audio player for testsound.mp3 -->
+<section id="audio-player" style="text-align:center; margin:1rem 0;">
+  <audio id="test-audio" controls preload="none">
+    <source src="media/testsound.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+  <div style="margin-top:.5rem;">
+    <button id="play-btn" type="button">Play</button>
+    <button id="pause-btn" type="button">Pause</button>
+    <span id="time">0:00</span>
+  </div>
+</section>
+
 <div style="text-align:center;">
   <img src="media/test.jpg" alt="Descrizione immagine" style="max-width:100%;height:auto;">
 </div>
@@ -21,3 +34,5 @@ Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ip
 </p>
 
 <footer>------</footer>
+
+<script src="js/player.js" defer></script>
